@@ -20,7 +20,8 @@ body{
 .title{
   font-size: 3rem;  
   margin: 6vh;
-  border: 7px dashed blue;
+  border: 7px dashed #ffafbd;
+  font-weight: 700;
   border-radius: 20px;
   padding: 1vh 5vh;
 }
@@ -81,7 +82,7 @@ body{
   background-color: rgb(238, 154, 154);
 }
 .btn-red:hover{
-  background-color: red;
+  background-image: linear-gradient(to right top, #ffafbd, #ff8e9b, #ff6a73, #ff4344, #ff0000);
   color: white;
   transition: all .2s ;
 }
@@ -92,15 +93,16 @@ body{
   margin-top: 18px;
   padding: 10px 60px;
   font-weight: 600;
-  border: 1px solid rgb(180, 100, 100);
+  border: 1px solid #ffafbd;
   border-radius: 10px;
   position: relative;
   font-size: 15px;
   
-  background-color: rgb(192, 159, 235);
+  background-color: #ffafbd;
 }
 .btn-white:hover{
-  background-color: rgb(220, 119, 234);
+  /* background-color: rgb(220, 119, 234); */
+  background-image: linear-gradient(to right top, #ffafbd, #f99ba8, #f18891, #e8757a, #de6262);
   color: white;
   transition: all .2s ;
 }
@@ -115,5 +117,6 @@ body{
 }
 .refresh h2{
   font-size: 25px;
+  
   font-weight: 500;
 }
