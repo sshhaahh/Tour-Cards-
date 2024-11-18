@@ -5,7 +5,6 @@ import Tours from './Components/Tours.js';
 import dataa from './dataa.js'
 const App= () => {
   const [tours,setTours] =useState(dataa)
-  // console.log(tours)
   function removeTour(id){
     const newTours = tours.filter(tour=>tour.id!==id);
     setTours(newTours);
